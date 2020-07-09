@@ -21,7 +21,7 @@ cookbook_file  '/var/www/html/index.html' do
     action :create
 end
 
-remote_file '/var/www/html/gopal.jg' do
+remote_file '/var/www/html/anilankem' do
     source 'https://gopalimagebucket.s3.us-east-2.amazonaws.com/happyface.jpg'
     owner 'root'
     group 'root'
