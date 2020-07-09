@@ -9,6 +9,7 @@ file '/etc/motd' do
     content  "This is test server
     Hostname: #{node['hostname']}
     Ip Address: #{node['ipaddress']}
+    test : #{node['macaddress']	}
     "
     owner 'root'
     group 'root'
